@@ -1,2 +1,5 @@
 What kind of help do you need?
+<<<<<<< HEAD
 If you dont need anyhelp then stop 
+=======
+>>>>>>> parent of 7f0668f... help changes
