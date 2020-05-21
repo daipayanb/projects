@@ -4,6 +4,7 @@ from Crypto.Cipher import AES
 def aes_enc(inputblock, key):
     cipher = AES.new(key, AES.MODE_ECB)
     cipher_text = cipher.encrypt(inputblock)
+    print(cipher_text)
     return cipher_text
 
 
@@ -78,5 +79,3 @@ def aes_key_av_test(inputblock, key, bitlist):
         diff_list.append(numbitdifferences)
 
     return diff_list
-
-
